@@ -4,12 +4,12 @@ var titleTime;
 document.addEventListener('visibilitychange', function () {
     if (document.hidden) {
         $('[rel="icon"]').attr('href', "/funny.ico");
-        document.title = '你的离开也是命运的选择吗？';
+        document.title = '╭(°A°`)╮ 页面崩溃啦 ~';
         clearTimeout(titleTime);
     }
     else {
         $('[rel="icon"]').attr('href', "/favicon.ico");
-        document.title = '命运使你再次来到这里！' + OriginTitle;
+        document.title = '(ฅ>ω<*ฅ) 噫又好啦 ~' + OriginTitle;
         titleTime = setTimeout(function () {
             document.title = OriginTitle;
         }, 2000);

@@ -2,8 +2,11 @@ body {
     cursor: url("../demo/arrow.cur"),
         default;
 }
-a,
-img {
+a,img {
     cursor: url("../demo/link.cur"),
         default;
+}
+a:hover{
+    cursor:url("../demo/link.cur"),
+    pointer;
 }

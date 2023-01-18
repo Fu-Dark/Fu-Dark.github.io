@@ -371,6 +371,12 @@ dfn {
   padding: 4px 8px;
   letter-spacing: 1.5px;
 }
+* {
+  cursor: url("../demo/arrow.cur"), auto !important;
+}
+:active {
+  cursor: url("../demo/link.cur"), auto !important;
+}
 html.show-mobile-nav {
   overflow: hidden;
   -webkit-tap-highlight-color: rgba(0,0,0,0);

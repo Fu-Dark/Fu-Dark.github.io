@@ -1,9 +1,9 @@
 body {
-    cursor: url(https://github.com/Fu-Dark/Fu-Dark.github.io/tree/gh-pages/demo/arrow.cur),
+    cursor: url("../demo/arrow.cur"),
         default;
 }
 a,
 img {
-    cursor: url(https://github.com/Fu-Dark/Fu-Dark.github.io/tree/gh-pages/demo/link.cur),
+    cursor: url("../demo/link.cur"),
         default;
 }

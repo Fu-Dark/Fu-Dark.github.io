@@ -13,17 +13,17 @@ jQuery(document).ready(function($) {
             "left": x,
             "position": "absolute",
             "font-weight": "bold",
-            "color": "#696969"
+            "color": "#FF0000"
         });
         $("body").append($i);
         $i.animate({
             "top": y - 180,
             "opacity": 0
         },
-      3000,
-      function() {
-          $i.remove();
-      });
+            3000,
+            function() {
+                $i.remove();
+            });
     });
     setTimeout('delay()', 2000);
 });

@@ -51,7 +51,7 @@
 <!-- header container -->
 <header class="header-container">
   
-    <div class="post-image" style="background-image: url(https://ts1.cn.mm.bing.net/th/id/R-C.9072f264c942c563cb18d9a54c240943?rik=9kuZrh31lU%2bZSw&amp;riu=http%3a%2f%2fup.ipaddesk.com%2fpic%2f6c%2fe4%2f63%2f6ce4632e8c8e3e25fb1b2ea8ab3a58d7.jpg&amp;ehk=lN%2fgpwdPzTNWN%2bFNTf3tcIbLcfugFFxUpqVFWAZUYhE%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0)"></div>
+    <div class="post-image" style="background-image: url(https://static.qiyuange.com/uploads/allimg/200903/9-200Z3142A94M.jpg)"></div>
   
 
   <!-- navbar -->
@@ -121,11 +121,94 @@
     <div class="article-info">
       
       <section class="article-entry markdown-body layout-margin content-padding--large soft-size--large soft-style--box">
-        <ul>
-<li>{ “name” : “XiaoFan Blog”, “describe” : “data structure algorithm”, “link” : “<a target="_blank" rel="noopener" href="https://bs3412.github.io/">https://bs3412.github.io</a>“, “cover” : “<a target="_blank" rel="noopener" href="https://bs3412.github.io/img/me.jpg">https://bs3412.github.io/img/me.jpg</a>“ }</li>
-<li>{ “name” : “TUBUG”, “describe” : ““未来无人知晓，但正因如此，它才如此美丽。””, “link” : “<a target="_blank" rel="noopener" href="https://blog.tubug.cn/">https://blog.tubug.cn</a>“, “cover” : “<a target="_blank" rel="noopener" href="https://q1.qlogo.cn/g?b=qq&nk=3464330059&s=640">https://q1.qlogo.cn/g?b=qq&amp;nk=3464330059&amp;s=640</a>“ }</li>
-</ul>
-
+        <div class="post-body">
+   <div id="links">
+      <style>
+         .links-content{
+         margin-top:1rem;
+         }
+         .link-navigation::after {
+         content: " ";
+         display: block;
+         clear: both;
+         }
+         .card {
+         width: 45%;
+         font-size: 1rem;
+         padding: 10px 20px;
+         border-radius: 4px;
+         transition-duration: 0.15s;
+         margin-bottom: 1rem;
+         display:flex;
+         }
+         .card:nth-child(odd) {
+         float: left;
+         }
+         .card:nth-child(even) {
+         float: right;
+         }
+         .card:hover {
+         transform: scale(1.1);
+         box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12), 0 0 6px 0 rgba(0, 0, 0, 0.04);
+         }
+         .card a {
+         border:none;
+         }
+         .card .ava {
+         width: 3rem!important;
+         height: 3rem!important;
+         margin:0!important;
+         margin-right: 1em!important;
+         border-radius:4px;
+         }
+         .card .card-header {
+         font-style: italic;
+         overflow: hidden;
+         width: 100%;
+         }
+         .card .card-header a {
+         font-style: normal;
+         color: #2bbc8a;
+         font-weight: bold;
+         text-decoration: none;
+         }
+         .card .card-header a:hover {
+         color: #d480aa;
+         text-decoration: none;
+         }
+         .card .card-header .info {
+         font-style:normal;
+         color:#a3a3a3;
+         font-size:14px;
+         min-width: 0;
+         overflow: hidden;
+         white-space: nowrap;
+         }
+      </style>
+      <div class="links-content">
+         <div class="link-navigation">
+            <div class="card">
+               <img class="ava" src="https://bs3412.github.io/img/me.jpg" />
+               <div class="card-header">
+                  <div>
+                     <a target="_blank" rel="noopener" href="https://bs3412.github.io">XiaoFan Blog</a>
+                  </div>
+                  <div class="info">data structure algorithm</div>
+               </div>
+            </div>
+            <div class="card">
+               <img class="ava" src="https://q1.qlogo.cn/g?b=qq&nk=3464330059&s=640" />
+               <div class="card-header">
+                  <div>
+                     <a target="_blank" rel="noopener" href="https://blog.tubug.cn">TUBUG</a>
+                  </div>
+                  <div class="info">“未来无人知晓，但正因如此，它才如此美丽。”</div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
       </section>
 
       
@@ -273,7 +356,7 @@
   <script type="text/javascript" src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>  
   
   <!-- 雪花特效 -->
-  <script type="text/javascript" src="/js/snow.js"></script>
+  <script type="text/javascript" src="../js/snow.js"></script>
 
   
   <!-- aplayer -->
@@ -304,11 +387,11 @@
 </html>
 
 <!--单击显示文字-->
-<script type="text/javascript" src="/js/click_show_text.js"></script>
+<script type="text/javascript" src="../js/click_show_text.js"></script>
 
 <!--动态线条背景-->
 <script type="text/javascript"
-color="220,220,220" opacity='0.7' zIndex="-1" count="200" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+color="220,220,220" opacity='0.7' zIndex="-1" count="200" src="..//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
 
 <!--浏览器搞笑标题-->
-<script type="text/javascript" src="/js/FunnyTitle.js"></script>
+<script type="text/javascript" src="../js/FunnyTitle.js"></script>

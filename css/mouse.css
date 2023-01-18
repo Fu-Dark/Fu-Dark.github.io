@@ -7,6 +7,6 @@ a,img {
         default;
 }
 a:hover{
-    cursor: url("../demo/busy.cur"),
+    cursor: url("../demo/arrow.cur"),
     pointer;
 }

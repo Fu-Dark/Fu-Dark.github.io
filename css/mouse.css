@@ -1,0 +1,9 @@
+body {
+    cursor: url(/themes/flex-block/source/demo/arrow.cur),
+        default;
+}
+a,
+img {
+    cursor: url(/themes/flex-block/source/demo/link.cur),
+        default;
+}

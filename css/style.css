@@ -378,7 +378,7 @@ dfn {
   cursor: url("../demo/link.cur"), auto !important;
 }
 :hover {
-  cursor: url("../demo/link.cur"), auto !important;
+  cursor: url("../demo/busy.cur"), auto !important;
 }
 html.show-mobile-nav {
   overflow: hidden;
